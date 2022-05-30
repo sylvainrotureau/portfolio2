@@ -1,11 +1,12 @@
-$theme-colors: ("navtext": rgb(0, 175, 245),
-    "socialbg": #ededed,
-    "socialtext":#708C91,
-    "dark": black,
-    "colortext2": rgb(5, 71, 82),
-    "aboutbg": rgb(5, 71, 82),
-    "bottomcolor": #8b1e3f,
-);
+$theme-colors: (
+    "color3": #ededed,
+    "color4": #708C91,
+    "color2": #054752,
+    "color1": #8b1e3f,
+    "color5": #000,);
 
+$color2: #054752;
+$color3: #ededed;
+$gradient: linear-gradient(90deg, $color2, $color3);
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
