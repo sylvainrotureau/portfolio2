@@ -14,3 +14,7 @@ TODO :
 *Travailler les contrasts de font : weight, letter-spacing, line-heigt... à tenter.
 *Vérifier l'harmonie des spacings
 *Rédiger un Readme utile
+
+
+icone github dans chaque réalisation*
+carroussel partie cleancode
