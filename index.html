@@ -12,7 +12,6 @@
 </head>
 
 <body class="text-color2 link-color2">
-
     <header>
         <!-- NAV -->
         <div class="navbar fixed-top py-1 bg-white px-4" aria-label="First navbar example">
@@ -21,7 +20,12 @@
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bg-color1"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list text-color1"
+                        width="32" height="32" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                    </span>
                 </button>
 
                 <div class="navbar-collapse collapse" id="navbarsExample01">
@@ -50,10 +54,10 @@
         <!-- SOCIAL -->
         <div class="p-3 mt-5 bg-color3 text-socialtext">
             <div class="d-grid gap-2 d-flex justify-content-center">
-                <a class="btn border-color1 text-color2 btn-lg px-4 me-md-2" href="https://dribbble.com/rotureau"
+                <button class="btn border-color1 text-color2 btn-lg px-4 me-md-2" href="https://dribbble.com/rotureau"
                     target="_blank">
                     <i class="fab fa-dribbble"></i>
-                </a>
+                </button>
                 <a class="btn border-color1 text-color2 btn-lg px-4 me-md-2"
                     href="https://www.linkedin.com/in/sylvain-rotureau-b3910a23a" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
@@ -69,39 +73,30 @@
         </div>
     </header>
 
-    <!-- MAIN TITLE -->
-    <section id="maintitle">
-        <div class="position-relative overflow-hidden text-center bg-gradient text-white">
-            <div class="col-md-5 p-lg-5 text-center my-5">
-                <!-- <h1 class="display-4 fw-normal">Sylvain Rotureau</h1>
-                <p class="lead fw-normal">Frontend Développeur</p> -->
-            </div>
+  <!-- ABOUT -->
+  <section id="about">
+            <div class="p-lg-5 text-center my-5 bg-gradient text-white">
+                <div class="container col col-xxl-8 px-4 mt-5" id="about">
+                    <div class="row flex-lg-row-reverse g-5 pt-5">
+                        <div class="col-sm-12 col-lg-6">
+                            <h1 class="display-5 fw-bold lh-1 mb-3">Sylvain Rotureau</h1>
+                            <p class="lead">Frontend Développeur</p>
+                            <a class="btn btn-color2" href="./cv/cv2022.pdf" title="Téléchargez mon cv" download>
+                                Téléchargez mon cv
+                            </a>
+                            <a class="btn btn-color1" href="mailto:sylvainrotureau@yahoo.fr" title="contactez-moi" download>
+                                Contactez-moi
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="./image/personal.jpg" class="d-block mx-lg-auto mx-auto img-fluid" alt="Bootstrap Themes"
+                                width="700" height="500" loading="lazy">
+                        </div>
+        
+                </div>   
+                     </div>
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-        </div>
-    </section>
-
-
-    <!-- ABOUT -->
-    <section id="about">
-        <div class="container col-xxl-8 px-4 mt-5" id="about">
-            <div class="row flex-lg-row-reverse g-5 pt-5">
-                <div class="col-lg-6 text-center">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">Sylvain Rotureau</h1>
-                    <p class="lead">Frontend Développeur</p>
-                    <a class="btn btn-color2" href="./cv/cv2022.pdf" title="Téléchargez mon cv" download>
-                        Téléchargez mon cv
-                    </a>
-                    <a class="btn btn-color1" href="mailto:sylvainrotureau@yahoo.fr" title="contactez-moi" download>
-                        Contactez-moi
-                    </a>
-                </div>
-                <div class="col-sm-8 col-lg-6">
-                    <img src="./image/personal.jpg" class="d-block mx-lg-auto mx-auto img-fluid" alt="Bootstrap Themes"
-                        width="700" height="500" loading="lazy">
-                </div>
-
-            </div>
         </div>
     </section>
 
@@ -222,7 +217,7 @@
                 <div class="container px-4">
                     <div class="row g-4 pt-3 align-items-start">
                         <div class="col-md-6 col-lg-4 col-xxl-3">
-                            <div class="card bg-socialbg text-black mx-auto" style="width: 18rem;">
+                            <div class="card text-black mx-auto" style="width: 18rem;">
                                 <img src="./image/kome-169.png" alt="Kome Waza">
                                 <div class="card-body">
                                     <h5 class="card-title">Kome Waza</h5>
@@ -237,7 +232,7 @@
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-xxl-3">
-                            <div class="card bg-socialbg text-black mx-auto" style="width: 18rem;">
+                            <div class="card text-black mx-auto" style="width: 18rem;">
                                 <img src="./image/card-169.png" alt="Carte de visite">
                                 <div class="card-body">
                                     <h5 class="card-title">Carte de visite</h5>
@@ -252,7 +247,7 @@
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-xxl-3">
-                            <div class="card bg-socialbg text-black mx-auto" style="width: 18rem;">
+                            <div class="card text-black mx-auto" style="width: 18rem;">
                                 <img src="./image/pat2-169.png" alt="Chef pâtissier">
                                 <div class="card-body">
                                     <h5 class="card-title">Chef pâtissier</h5>
@@ -265,7 +260,7 @@
                         </div>
 
                         <div class="col-lg-4 col-md-6 col-xxl-3">
-                            <div class="card bg-socialbg text-black mx-auto" style="width: 18rem;">
+                            <div class="card text-black mx-auto" style="width: 18rem;">
                                 <img src="./image/zanzi-169.png" alt="Zanzibar">
                                 <div class="card-body">
                                     <h5 class="card-title">Zanzibar</h5>
@@ -295,13 +290,14 @@
                             <a class="link-secondary text-decoration-none"
                                 href="https://developer.mozilla.org/fr/docs/Learn/Performance/CSS"
                                 target="_blank">optimiser mon code</a>
-                            et à le rendre le plus 
+                            et à le rendre le plus
                             <a class="link-secondary text-decoration-none"
-                                href="https://kinsta.com/fr/blog/meilleures-pratiques-html/"
-                                target="_blank">facilement maintenable.</a>
+                                href="https://kinsta.com/fr/blog/meilleures-pratiques-html/" target="_blank">facilement
+                                maintenable.</a>
                         </p>
                         <p>
-                            Cela peut permettre de diminuer drastiquement les temps de chargement et de faire des économies de temps lors de la modification du site.
+                            Cela peut permettre de diminuer drastiquement les temps de chargement et de faire des
+                            économies de temps lors de la modification du site.
                         </p>
                         <p>
                             Dans le cas de cette page, j'utilise un maximum les capacités de Bootstrap pour éviter de
@@ -309,28 +305,26 @@
                         </p>
                         <h4 class="mt-4">Et pour un plus gros projet ?</h4>
                         <p>
-                            Dans le cas de plus gros projets, j'utilise les propriétés que m'offrent 
-                            <a class="link-secondary text-decoration-none"
-                                href="https://g.co/kgs/YRP8C9"
+                            Dans le cas de plus gros projets, j'utilise les propriétés que m'offrent
+                            <a class="link-secondary text-decoration-none" href="https://g.co/kgs/YRP8C9"
                                 target="_blank">SCSS</a>
-                                 pour gagner du temps et alléger le code. 
+                            pour gagner du temps et alléger le code.
                             <br>
-                            Les 
-                            <a class="link-secondary text-decoration-none"
-                                href="https://g.co/kgs/g2S4CV"
+                            Les
+                            <a class="link-secondary text-decoration-none" href="https://g.co/kgs/g2S4CV"
                                 target="_blank">@mixin</a>
-                                , les 
-                                <a class="link-secondary text-decoration-none"
+                            , les
+                            <a class="link-secondary text-decoration-none"
                                 href="https://www.w3schools.com/sass/sass_mixin_include.php"
                                 target="_blank">@include</a>
-                                et 
-                                <a class="link-secondary text-decoration-none"
-                                href="https://www.w3schools.com/sass/sass_variables.php"
-                                target="_blank">les variables peuvent</a>
-                                 être de redoutables alliées !
+                            et
+                            <a class="link-secondary text-decoration-none"
+                                href="https://www.w3schools.com/sass/sass_variables.php" target="_blank">les variables
+                                peuvent</a>
+                            être de redoutables alliées !
                         </p>
                 </div>
-                
+
                 <div class="col-sm-8 col-lg-6 d-flex flex-column gap-4">
                     <div class="col">
                         <h4>Partie de mon code HTML</h4>
